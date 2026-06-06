@@ -287,9 +287,7 @@ MainTab:CreateToggle({
     end,
 })
 MainTab:CreateSection("Info")
-MainTab:CreateLabel("Updates in the future")
 MainTab:CreateLabel("Toggle UI: K")
-MainTab:CreateLabel("Keyless")
 
 local BuyTab = Window:CreateTab("Auto Buy", 4483362458)
 
@@ -322,9 +320,6 @@ PlantTab:CreateToggle({
     end,
 })
 PlantTab:CreateSection("Info")
-PlantTab:CreateLabel("Anchors player above each monster")
-PlantTab:CreateLabel("Live: detects new spawns via ChildAdded")
-PlantTab:CreateLabel("Source: workspace.InteractiveEvents.PlantRush.Runtime")
 
 local HoneyTab = Window:CreateTab("Honey", 4483362458)
 
@@ -338,8 +333,6 @@ HoneyTab:CreateToggle({
     end,
 })
 HoneyTab:CreateSection("Info")
-HoneyTab:CreateLabel("TPs to and collects all active honeycombs")
-HoneyTab:CreateLabel("Rate: Every 0.1s")
 
 local UpgradePlantTab = Window:CreateTab("Upgrade Plants", 4483362458)
 
@@ -353,8 +346,6 @@ UpgradePlantTab:CreateToggle({
     end,
 })
 UpgradePlantTab:CreateSection("Info")
-UpgradePlantTab:CreateLabel("Upgrades every Dirt in all FarmPlots")
-UpgradePlantTab:CreateLabel("Rate: Every 0.2s per plant")
 
 local PlayerTab = Window:CreateTab("Player", 4483362458)
 
